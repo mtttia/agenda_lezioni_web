@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.dim-img{
+ width: 10px;
+}
+.top{
+    position: fixed;
+    height: 50px;
+    background-color: #1d7def;
+    color: white;
+    width: 100%;
+    padding: 30,10;
+}
+
+.jumbotron-margin-bottom{
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    background-color: #1d7def;
+}
+
+@media (min-width: 576px) { 
+    .dim-img{
+        width: 150px;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    .dim-img{
+        width: 300px;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .dim-img{
+        width: 500px;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .dim-img{
+        width: 700px;
+    }
+ }
