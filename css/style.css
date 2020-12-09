@@ -23,8 +23,34 @@ body{
     margin-bottom: 30px;
 }
 
+.display-3{
+    text-align: center;
+    font-size: 100px;
+    margin-top: auto;
+}
+
+.display-7{
+    text-align: center;
+}
+.display-4{
+    text-align: center;
+}
+.lead{
+    text-align: center;
+}
+
+.display-imp{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
 .btn-primary{
     background-color: #1d7def;
+}
+
+.jumbotron{
+    background-color: rgba(6, 6, 24, 0.822);
+    color: white;
 }
 
 .mini-card{
@@ -86,6 +112,11 @@ body{
 }
 
 .text{
+    color: black;
+    text-align: center;
+}
+
+.text-current{
     color: black;
 }
 
