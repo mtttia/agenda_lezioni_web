@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">        
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon-foglia-bianca.png">
+
+    <title>Agenda lezioni</title>
+    </head>
+    <body class="background">
+     <!-- particles.js container --> 
+     <div id="particles-js"></div> 
+     <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+     <!-- stats.js lib --> 
+     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+ 
+     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+       <a class="navbar-brand text-primary" href="#"><img src="img/icon-foglia-bianca.png" style="height: 55px; width: auto;"> Agenda Lezioni</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item">
+             <a class="nav-link text" href="index.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item active">
+            <a href="tutorial.html" class="nav-link text">Tutorial</a>
+          </li>
+           <li class="nav-item">
+             <a href="chi-siamo.html" class="nav-link text">Chi siamo?</a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Download
+             </a>
+             <div class="dropdown-menu background" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item text" href="https://drive.google.com/file/d/1YueURL40veUh10joC4lnB2iotvK3LHIr/view?usp=sharing">Download apk</a>
+               <a class="dropdown-item text" href="https://drive.google.com/file/d/1Ni0-YvLB_QhnqatHWylmD7CQpfw0_v94/view?usp=sharing">Download zip</a>
+             </div>
+           </li>
+         </ul>
+         <div class="custom-control custom-switch">
+           <input type="checkbox" class="custom-control-input" id="DarkMode">
+           <label class="custom-control-label text" for="DarkMode" style="font-size: medium;">Darkmode</label>
+         </div>
+       </div>
+     </nav>
+
+     <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Tutorial</h1>
+            <h2 class="lead">Qui troverai tutto ciò che ti serve per utilizzarre correttamente l'applicaizone</h2>
+            <hr class="my-2">
+            <h2 class="display-4">Funzionamento</h2>
+            <p class="lead">
+              Il concetto principale è quello di rendere semplice l'oranizzazione dello studio scolastico, quindi una volta installata l'app è necessario creare le lezioni e impostare l'orario in modo tale che l'applicazione sappia cosa mostrare e svolgere la sua corretta funzione.
+            </p>
+            <hr class="my-2">
+            <h2 class="display-4">Menù</h2>
+            <div class="row">
+              <div class="col-md-9">
+                <p class="lead">
+                 La nostra applicazione dispone di una barra di navigazione laterale che permetti di muoversi fluidamente tra le varie funzionalità.<br>
+                 Per poterla utilizzare basta cliccare sulle tre lineette presenti in alto a sinistra, una volta fatto appariranno tutte le schermarte disponibili, per andare su una di queste bisogna cliccare sulla funzione scelta.<br>
+                 Tutte le seguenti opzione proposte dall'app verrano spiegate dettagliatamente più avanti in questo tutorial, ora vediamo brevemente quali sono i compiti di principali:<br><br>
+                 <b>Home</b>: qui possiamo vedere tutto ciò che abbiamo da fare nella giornata corrente.<br>
+                 <b>Settimana</b>: qui possiamo scorrere e vedere gli impegni nei vari giorni, utile per portarsi avanti con l'organizzazione.<br>
+                 <b>Modalità compiti</b>: inserendo un orario, da quel momento in poi l'app mostrerà il giorno seguente come giorno corrente.<br>
+                 <b>Note</b>: qui ci si può appuntare qualsiasi cosa si voglia, inoltre esistono diversi tipi di nota, che saranno spiegati più avanti.
+                </p>
+             </div>  
+             <div class="col-md-3">
+               <img src="img/barraNavigazione.png" class="dim-img">
+              </div>
+            </div>
+            <hr class="my-2">
+            <h2 class="display-4">Lezioni</h2>
+            <p class="lead">Ora verranno elencarti i modi per visualizare le lezioni e come vengono gestite</p>
+            <div class="row">
+              <div class="col-md-9">
+                <h3 class="display-5">Home</h3>
+                <p class="lead">
+                  Nella home è possibili visualizzare le lezioni che sono state inserite nel giorno corrente, come possiamo vedere nell'immagine nel "giovedì" sono state inserite 4 lezioni, questo sta a significare che duranta il giovedì le lezioni da svolgere sono 4 e sono di matematica, informatica e italiano. Abbiamo anchla possibilità di leggere le note che sono state scritte (in questo momento non è stata inserita nessuna nota).<br>
+                </p>
+                <h3 class="display-5">Settimana</h3>
+                <p class="lead">
+                  Qui, a differenza della home, abbiamo la possibilità di scorrere tra le giornate utilizzando i bottoni "avanti" e "indietro", quindi possiamo vedere quali lezioni impostate nei vari giorni.
+                  Intoltre possiamo notare che si possiamo arrivare a questa schermata direttamente cliccando sul mini-menù in basso, questo rende tutto più veloce.
+                </p>
+                <h3 class="display-5">Tutte le lezioni</h3>
+                <p class="lead">
+                  All'interno di questa funzionalità possiamo vedere tutte le lezioni che sono state create e non solo quelle che vengono svolte in un determinato giorno, da qui possiamo anche eliminare le materie che non servono più.<br>
+                  L'ora buca è un elemento che non si può eliminare in quanto questo è il sostituto di tutte le lezioni.
+                </p>
+              </div>
+              <div class="col-md-3">
+                <img src="img/home.png" class="dim-img">
+              </div>
+              <h3 class="display-5">Aggiungi lezioni</h3>
+                <p class="lead">
+                  Ora possiamo creare una nuova lezione, l'unico parametro importante e obbligatorio è il nome della lezione che serve per distinguerla dalle altre, mentre gli altri parametri (link e nota della lezione) possono essere saltati.
+                </p>
+            </div>
+
+        </div>
+     </div>
+
+     <!-- Optional JavaScript; choose one of the two! -->
+
+     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+     <script src="js/script.js"></script>
+    </body>
+</html>

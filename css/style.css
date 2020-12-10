@@ -29,16 +29,6 @@ body{
     margin-top: auto;
 }
 
-.display-7{
-    text-align: center;
-}
-.display-4{
-    text-align: center;
-}
-.lead{
-    text-align: center;
-}
-
 .display-imp{
     text-decoration: underline;
     font-size: 30px;
@@ -48,7 +38,7 @@ body{
     background-color: #1d7def;
 }
 
-.jumbotron{
+.jumbo-index{
     background-color: rgba(6, 6, 24, 0.822);
     color: white;
 }
@@ -113,7 +103,6 @@ body{
 
 .text{
     color: black;
-    text-align: center;
 }
 
 .text-current{
