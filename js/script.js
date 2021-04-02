@@ -11,12 +11,12 @@ $(document).ready(function(){
 
     $(".downloadApk").click(function(){
         window.open("https://drive.google.com/file/d/1YueURL40veUh10joC4lnB2iotvK3LHIr/view?usp=sharing");
-        window.open("post-download.html/#apk", "_top");
+        //window.open("post-download.html/#apk", "_top");
     })
 
     $(".downloadZip").click(function(){
-        window.open("https://drive.google.com/file/d/1YueURL40veUh10joC4lnB2iotvK3LHIr/view?usp=sharing");
-        window.open("post-download.html/#zip", "_top");
+        window.open("https://drive.google.com/file/d/1Ni0-YvLB_QhnqatHWylmD7CQpfw0_v94/view?usp=sharing");
+        //window.open("post-download.html/#zip", "_top");
     })
 
 });
@@ -34,4 +34,5 @@ function ChangeMode(){
     $("#navbar").toggleClass("navbar-dark");
     $("#navbar").toggleClass("bg-light");
     $("#navbar").toggleClass("bg-dark");
+    $('.alert-info').toggleClass("alert-info-dark");
 }

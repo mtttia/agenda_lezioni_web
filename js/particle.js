@@ -1,6 +1,6 @@
 particlesJS("particles-js", {"particles":{"number":{"value":6,"density":{"enable":true,"value_area":800}},
-"color":{"value":"#dce0ff"},
-"shape":{"type":"polygon","stroke":{"width":0,"color":"#000"},
+"color":{"value":"#EDE6DE"}, //dce0ff
+"shape":{"type":"polygon","stroke":{"width":0,"color":"#F2F2F2"},
 "polygon":{"nb_sides":6},
 "image":{"src":"img/github.svg","width":100,"height":100}},
 "opacity":{"value":0.3,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},
