@@ -10,13 +10,8 @@ $(document).ready(function(){
     //$("#home").height($(window).height());
 
     $(".downloadApk").click(function(){
-        window.open("https://drive.google.com/file/d/1YueURL40veUh10joC4lnB2iotvK3LHIr/view?usp=sharing");
+        window.open("https://github.com/mtttia/agenda_lezioni/releases/download/1.0.0/app-release.apk");
         //window.open("post-download.html/#apk", "_top");
-    })
-
-    $(".downloadZip").click(function(){
-        window.open("https://drive.google.com/file/d/1Ni0-YvLB_QhnqatHWylmD7CQpfw0_v94/view?usp=sharing");
-        //window.open("post-download.html/#zip", "_top");
     })
 
 });

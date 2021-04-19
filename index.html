@@ -4,14 +4,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!--CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">        
     <link rel="stylesheet" href="css/particle.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/icon-foglia-bianca.png">
+    <link rel="icon" href="img/icon.png">
 
     <title>Agenda lezioni</title>
   </head>
@@ -25,7 +25,7 @@
     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #677250 !important;" id="navbar">
-      <a class="navbar-brand" style="color: white;" href="#"><img src="img/icon-foglia-bianca.png" style="height: 55px; width: auto;"> Agenda Lezione</a>
+      <a class="navbar-brand" style="color: white;" href="index.html"><img src="img/icon.png" style="height: 55px; width: auto;"> Less on</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,16 +39,13 @@
             <a class="nav-link text" href="tutorial.html">Tutorial</a>
           </li>
           <li class="nav-item">
-            <a href="chi-siamo.html" class="nav-link text">chi siamo</a>
+            <a href="chi-siamo.html" class="nav-link text">Chi siamo</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Download
-            </a>
-            <div class="dropdown-menu background" aria-labelledby="navbarDropdown">
-              <button class="dropdown-item text downloadApk" >Download apk</button>
-              <button class="dropdown-item text downloadZip" >Download zip</button>
-            </div>
+          <li class="nav-item">
+            <a href="screenshot.html" class="nav-link text">Screenshot</a>
+          </li>
+          <li class="nav-item">
+            <a href="open-source.html" class="nav-link text">Open source</a>
           </li>
         </ul>
         <div class="custom-control custom-switch">
@@ -67,36 +64,22 @@
             <img src="img/intro.png" class="dim-img">
           </div>
           <div class="col-md-7 order-md-1">
-            <h1 class="display-4 text" style="margin-bottom: 50px;">Agenda Lezioni</h1>
-            <h3 class="text" style="font-size: 30px;" >La tua giornata, organizzata<br>a portata di telefono</h3>
+            <h1 class="display-4 text header" style="margin-bottom: 50px;">Less on</h1>
+            <h3 class="text intro" style="font-size: 30px;" >La tua giornata, organizzata<br>a portata di telefono</h3>
             <div class="row">
               <div class="col-md-6">                           
                 <p>
-                  <a class="btn btn-primary text btn-first" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <a class="btn btn-primary text btn-first downloadApk" href="#collapseExample" >
                     Download Gratis
                   </a>
                 </p>
-                <div class="collapse" id="collapseExample">
-                  <div class="card card-body background text">
-                    <a href="#guida-download">
-                      Quale download preferire?
-                    </a>
-                    <br>
-                    <p>
-                      <button class="btn btn-primary downloadApk">Download apk</button>
-                    </p>
-                    <p>
-                      <button class="btn btn-secondary downloadZip" >Download zip</button>
-                    </p>
-                  </div>
-                </div>
               </div>
               <div class="col-md-6">
                 <a href="chi-siamo.html" class="btn btn-secondary btn-first">Chi siamo</a>
               </div>
             </div>
             <p class="text-muted mb-0 text">
-              Currently v1.2
+              Currently v1.0
             </p>
           </div>
         </div>
@@ -175,7 +158,7 @@
             </div>            
             <div>
               <p class="mini-card-p">
-                Interfaccia semplice e intuitiva
+                Interfaccia semplice, gradevole e intuitiva
               </p>
             </div>
           </div>
@@ -187,7 +170,7 @@
             </div>
             <div>
               <p class="mini-card-p">
-                Organizza al meglio i compiti con la modalità compiti
+                Organizza al meglio i compiti con le note e con i tool di Less on
 
               </p>
             </div>
@@ -225,19 +208,20 @@
           Guida download
         </p>
         <p class="lead">
-          Agenda lezioni rende il download disponibile attraverso 2 diverse opzioni, scegli quella che fa più al caso tuo
+          Agenda lezioni rende il download disponibile attraverso diverse opzioni, scegli quella che fa più al caso tuo (ricorda : Less on è disponibile solo per android)
         </p>
         <h2 class="display-6" >
-          Da APK <span class="badge badge-primary">Consigliato</span>
+          Da APK <span class="badge badge-primary">Default</span>
         </h2>
         <p class="lead">
-          Il download è un po' più pesante, ma la procedura per l'installazione è sicuramente la più semplice : una volta terminato il download, cercare il file "com.mtttia.agenda_lezioni.apk" nei download e cliccarci sopra per installarla
+          Il download è un po' più pesante (19 mb), ma la procedura per l'installazione è sicuramente la più semplice : una volta terminato il download, cercare il file "com.mtttia.agenda_lezioni.apk" nei download e cliccarci sopra per installarla
         </p>
         <h2 class="display-6">
-          Da ZIP
+          Altri download
         </h2>
         <p class="lead">
-          Il download è un meno pesante, ma la procedura per l'installazione è un po' più complicata : una volta terminato il download, cercare il file "agenda_lezioni.zip" nei download, cliccarci sopra per estrarla, poi cercare all'interno della stessa cartella, cercare la cartella "agenda_lezioni", aprirla e infine cliccare sul file "com.mtttia.agenda_lezioni.apk" per installarlo
+          Il download è un meno pesante (7.5 mb).
+          Less on rende disponibili 3 download diversi in base alle specifiche del tuo dispositivo, puoi trovare tutti i download in <a href="https://github.com/mtttia/agenda_lezioni/releases/tag/1.0.0" target="_blank">questa pagina</a>. Se non sai quale si addice al tuo dispositivo utilizza il download classico.
         </p>
         <h3 class="display-6">
           Durante il download, il sistema vi dirà che l'app è stata creata da uno sviluppatore non riconosciuto, questo perchè noi per ora non siamo sul play store, perciò google non ci riconosce, a quel punto bisogna cliccare "Installa lo stesso"
