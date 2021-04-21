@@ -1,5 +1,5 @@
 particlesJS("particles-js", {"particles":{"number":{"value":6,"density":{"enable":true,"value_area":800}},
-"color":{"value":"#EDE6DE"}, //dce0ff
+"color":{"value":"#cfc2b4"}, //ede6de
 "shape":{"type":"polygon","stroke":{"width":0,"color":"#F2F2F2"},
 "polygon":{"nb_sides":6},
 "image":{"src":"img/github.svg","width":100,"height":100}},

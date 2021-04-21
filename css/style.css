@@ -93,6 +93,36 @@ body{
     }
 }
 
+.splide-slide{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show-screen{
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+    border: 1px dashed #677250;
+    padding: 10px;
+}
+
+.show-screen:hover{
+    transform: scale(1.4);
+    
+    background-color: white;
+    z-index: 2;
+}
+
+.img-splide{
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-screen{
+    width: 80%;
+}
+
 .center{
     margin-left: auto;
     margin-right: auto;
