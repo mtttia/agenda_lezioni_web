@@ -10,7 +10,7 @@ $(document).ready(function(){
     //$("#home").height($(window).height());
 
     $(".downloadApk").click(function(){
-        window.open("https://github.com/mtttia/agenda_lezioni/releases/download/1.1.0/less-on.apk");
+        window.open("https://github.com/mtttia/agenda_lezioni/releases/download/1.1.1/app-release.apk");
         //window.open("post-download.html/#apk", "_top");
     })
 
