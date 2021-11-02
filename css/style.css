@@ -25,7 +25,7 @@ body{
 
 .subtitle{
     font-size: 25px;
-    color: #677250;
+    /* color: #677250; */
 }
 
 .bold{
@@ -325,6 +325,23 @@ body{
     color: #d6f9ff !important;
 }
 
+a{
+    color: #4e573b;
+}
+a:hover{
+    color: #4e573b;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #4e573b;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #4e573b;
+    background-color: #4e573b;
+}
 
 @media (min-width: 576px) { 
     

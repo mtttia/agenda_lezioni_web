@@ -1,9 +1,13 @@
 var darkmode;
 $(document).ready(function(){
 
-    darkmode = false;
+    darkmode = sessionStorage.getItem('darkmode')
+    sessionStorage.setItem('darkmode', darkmode)
+    document.getElementById("DarkMode").checked = darkmode
+    if(darkmode) ChangeMode()
     document.getElementById("DarkMode").addEventListener("change", function(){
         darkmode = document.getElementById("DarkMode").checked;
+        sessionStorage.setItem('darkmode', darkmode)
         ChangeMode();
         //console.log("change" + darkmode);
     });
@@ -17,7 +21,7 @@ $(document).ready(function(){
 });
 
 function ChangeMode(){
-    //use darkmode;
+    //use darkmode;    
     $(".btn-primary").toggleClass("btn-primary-dark");
     $(".btn-secondary").toggleClass("btn-secondary-dark");
     $(".text").toggleClass("text-light");
